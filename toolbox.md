@@ -1,6 +1,7 @@
 *Backup, restore, and sync the prefs and settings*
 [dotfiles](https://dotfiles.github.io/)
 
+[tags]: <> (jsexample)
 ```javascript 
 function getGeoByIp(request, reply) {
   const ipAddress = requestIp.getClientIp(request);
@@ -19,3 +20,4 @@ function getGeoByIp(request, reply) {
   }
 }
 ```
+[tags-end]: <>
