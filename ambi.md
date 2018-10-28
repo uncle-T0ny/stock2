@@ -57,6 +57,9 @@ or
 
 kubectl -n rc get service supernode
 
+on dev
+
+kubectl -n develop describe ingress orderbook
 ### restrart RC back
 kubectl -n rc delete pods -l tier=backend
 
