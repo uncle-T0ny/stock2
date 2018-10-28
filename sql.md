@@ -1,4 +1,4 @@
-[tags]: <> (sql, column description)
+[tags]: <> (sql, mysql, column description)
 *Select all columns description by type*
 ```sql
 select * from information_schema.columns
@@ -7,7 +7,7 @@ where table_schema = 'exchange-local' and DATA_TYPE = 'bigint'
 [tags-end]: <>
 
 
-[tags]: <> (sql, like)
+[tags]: <> (sql, mysql, like)
 *Select all columns description by type 1*
 ```sql
 select TABLE_NAME, COLUMN_NAME  from information_schema.columns
@@ -16,10 +16,10 @@ select TABLE_NAME, COLUMN_NAME  from information_schema.columns
 [tags-end]: <>
 
 
-[tags]: <> (sql, drop column)
+[tags]: <> (sql, mysql, drop column)
 *Drop column by name*
 ```sql
-ALTER TABLE tableName DROP COLUMN columnName, ALGORITHM=INPLACE, LOCK=NONE;
+alert table tableName drop column columnName, algorithm=INPLACE, lock=NONE;
 ```
 [tags-end]: <>
 
