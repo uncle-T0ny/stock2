@@ -23,3 +23,14 @@ alert table tableName drop column columnName, algorithm=INPLACE, lock=NONE;
 ```
 [tags-end]: <>
 
+
+[tags]: <> (sql, mysql, group by date)
+*Drop column by name*
+```sql
+SELECT count(*), DATE_FORMAT(datetime, "%Y-%m-%d") day FROM TABLE_NAME
+group by day
+order by day desc;
+```
+[tags-end]: <>
+
+ 
