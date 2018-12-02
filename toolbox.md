@@ -7,3 +7,13 @@
 [dotfiles](https://dotfiles.github.io/)
 
 [tags-end]: <>
+
+
+
+[tags]: <> (toolbox)
+
+*A SPECIFICATION FOR BUILDING APIS IN JSON*
+
+[jsonapi](https://jsonapi.org/)
+
+[tags-end]: <>
