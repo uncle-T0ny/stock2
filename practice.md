@@ -27,3 +27,13 @@
 
 [tags-end]: <>
 
+
+[tags]: <> (toolbox)
+
+*OWASP Top 10 vulnerability of web applications*
+
+[owasp-top-10](https://www.veracode.com/directory/owasp-top-10)
+
+[tags-end]: <>
+
+
