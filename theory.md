@@ -31,3 +31,12 @@
 [https://www.veracode.com/directory/owasp-top-10](owasp-top-10)
 
 [tags-end]: <>
+
+
+[tags]: <> (toolbox, cheatsheets)
+
+bash, react, go cheatsheets 
+
+[https://devhints.io/](cheatsheets)
+
+[tags-end]: <>
