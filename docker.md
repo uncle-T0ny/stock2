@@ -37,4 +37,6 @@ docker swarm leave --force
 ### stop all the containers
 docker stop $(docker ps -aq)
 
+### docker compose remove all images
+docker-compose down --rmi=all
 [tags-end]: <>
