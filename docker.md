@@ -40,4 +40,7 @@ docker stop $(docker ps -aq)
 ### docker compose remove all images
 docker-compose down --rmi=all
 
+### build docker image with dockerfile
+docker build - < docker/Dockerfile.local
+
 [tags-end]: <>
