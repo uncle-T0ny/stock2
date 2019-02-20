@@ -2,10 +2,13 @@
 # Show all the keys
 keys *
 
-#get value by key
+# get value by key
 get "key"
 
+# delete value by key
+del key
 [tags-end]: <>
+
 
 [tags]: <> (docker, redis-cli)
 # connect to the docker with redis cli
