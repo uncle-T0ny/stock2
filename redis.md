@@ -15,3 +15,11 @@ del key
 docker exec -it redis_container_name redis-cli
 
 [tags-end]: <>
+
+
+[tags]: <> (redis, redis-cli)
+# remove all the entries in db
+FLUSHDB
+
+[tags-end]: <>
+
