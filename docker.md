@@ -43,4 +43,7 @@ docker-compose down --rmi=all
 ### build docker image with dockerfile
 docker build - < docker/Dockerfile.local
 
+### get docker free space
+docker system df
+
 [tags-end]: <>
