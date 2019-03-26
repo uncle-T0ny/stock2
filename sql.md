@@ -33,4 +33,13 @@ order by day desc;
 ```
 [tags-end]: <>
 
+[tags]: <> (sql, mysql, trigger)
+*Select available triggers*
+```sql
  
+select trigger_schema, trigger_name, action_statement
+from information_schema.triggers
+```
+[tags-end]: <>
+ 
+
