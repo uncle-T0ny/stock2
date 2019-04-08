@@ -10,3 +10,11 @@ free -m
 grep -iRl "your-text-to-find" ./
 ```
 [tags-end]: <>
+
+
+[tags]: <> (linux, text, find)
+# Show open ports
+```
+lsof -i -P -n | grep LISTEN
+```
+[tags-end]: <>
