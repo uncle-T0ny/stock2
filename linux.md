@@ -18,3 +18,11 @@ grep -iRl "your-text-to-find" ./
 lsof -i -P -n | grep LISTEN
 ```
 [tags-end]: <>
+
+
+[tags]: <> (linux, nano, linenumber)
+# Go to line number
+```
+Ctrl+w+t
+```
+[tags-end]: <>
