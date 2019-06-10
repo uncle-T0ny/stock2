@@ -46,4 +46,7 @@ docker build - < docker/Dockerfile.local
 ### get docker free space
 docker system df
 
+### docker restart comnainer 
+docker restart container_name
+
 [tags-end]: <>
