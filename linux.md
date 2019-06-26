@@ -26,3 +26,10 @@ lsof -i -P -n | grep LISTEN
 Ctrl+w+t
 ```
 [tags-end]: <>
+
+[tags]: <> (ssh, scp, copy)
+# Copy folder to remote server
+```
+scp -r * remoteuser@remoteserver:/remote/folder/
+```
+[tags-end]: <>
