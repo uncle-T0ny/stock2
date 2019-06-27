@@ -1,6 +1,12 @@
 [tags]: <> (linux)
 # Get free/used memory of the container
+```
+df -h
+
+or 
+
 free -m
+```
 [tags-end]: <>
 
 
