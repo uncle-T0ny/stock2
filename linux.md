@@ -1,4 +1,4 @@
-[tags]: <> (linux)
+[tags]: <> (linux, memory, free, usage)
 # Get free/used memory of the container
 ```
 df -h
