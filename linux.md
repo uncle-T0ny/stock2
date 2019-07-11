@@ -39,3 +39,11 @@ Ctrl+w+t
 scp -r * remoteuser@remoteserver:/remote/folder/
 ```
 [tags-end]: <>
+
+[tags]: <> (linux, ports, lsof)
+# Show open ports
+```
+lsof -i -P -n
+```
+[tags-end]: <>
+
