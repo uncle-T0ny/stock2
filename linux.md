@@ -47,3 +47,26 @@ lsof -i -P -n
 ```
 [tags-end]: <>
 
+[tags]: <> (linux, screen, session, process)
+# start screen session 
+```
+screeen 
+```
+
+# out from session
+```
+Ctrl + A + Z
+```
+
+
+# show sessions
+```
+sudo screen -ls
+```
+
+# connect to the session 
+```
+screen -r session_name
+```
+[tags-end]: <>
+
