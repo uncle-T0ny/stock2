@@ -8,7 +8,7 @@ db.links.reIndex()
 [tags]: <> (db, mongo, index)
 # Create nested index
 ```
-db.collection.links.createIndex({"payload.broadcast_id": 1}})
+db.links.createIndex({"payload.broadcast_id": 1}})
 ```
 [tags-end]: <>
 
@@ -17,7 +17,7 @@ db.collection.links.createIndex({"payload.broadcast_id": 1}})
 
 # Create index with unique field
 ```
-db.collection.links.createIndex({"broadcast_id": 1, {"unique": 1}}})
+db.conversions.createIndex({broadcastId: 1, reference: 1}, {background: true})
 ```
 [tags-end]: <>
 
