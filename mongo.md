@@ -36,6 +36,9 @@ db.killOp(30318806)
 
 // kill all current operation 
 db.currentOp().inprog.forEach(function(cop){db.killOp(cop.opid)})
+
+// get amount of current operations 
+db.currentOp().inprog.length
 ```
 [tags-end]: <>
 
