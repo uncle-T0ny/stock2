@@ -20,3 +20,24 @@ db.collection.links.createIndex({"payload.broadcast_id": 1}})
 db.collection.links.createIndex({"broadcast_id": 1, {"unique": 1}}})
 ```
 [tags-end]: <>
+
+[tags]: <> (db, mongo, performance)
+
+# Create index with unique field
+```
+// return a list of operations in progress that take more than 3 seconds to perform
+db.currentOp({"secs_running": {$gte: 3}})
+
+// get current operations
+db.currentOp()
+
+// kill operation
+db.killOp(30318806)
+
+// kill all current operation 
+db.currentOp().inprog.forEach(function(cop){db.killOp(cop.opid)})
+```
+[tags-end]: <>
+
+
+
