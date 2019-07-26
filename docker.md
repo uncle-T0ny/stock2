@@ -49,4 +49,7 @@ docker system df
 ### docker restart comnainer 
 docker restart container_name
 
+### docker remove all containers and all unused images
+docker system prune -a
+
 [tags-end]: <>
