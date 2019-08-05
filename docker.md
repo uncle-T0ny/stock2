@@ -52,4 +52,10 @@ docker restart container_name
 ### docker remove all containers and all unused images
 docker system prune -a
 
+### Copy a file from Docker container to host:
+docker cp 72ca2488b353:/foo.txt foo.txt
+
+### Copy a file from host to container: 
+docker cp foo.txt 72ca2488b353:/foo.txt
+
 [tags-end]: <>
