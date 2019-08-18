@@ -40,3 +40,11 @@ bash, react, go cheatsheets
 [https://devhints.io/](cheatsheets)
 
 [tags-end]: <>
+
+[tags]: <> (repository, secrets, secure)
+
+[https://github.com/techgaun/github-dorks](github-dorks)
+
+[tags-end]: <>
+
+
