@@ -70,3 +70,15 @@ screen -r session_name
 ```
 [tags-end]: <>
 
+
+[tags]: <> (linux, bash, loop, for)
+
+```
+#!/bin/bash
+
+for ((i=1;i<=100;i++)); 
+do 
+   echo $i
+done
+```
+[tags-end]: <>
