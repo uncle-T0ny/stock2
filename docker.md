@@ -58,4 +58,7 @@ docker cp 72ca2488b353:/foo.txt foo.txt
 ### Copy a file from host to container: 
 docker cp foo.txt 72ca2488b353:/foo.txt
 
+### Investigate docker image
+docker image history --no-trunc registry.mmdsmart.com/mmd/docker-base/sonar
+docker run -it registry.mmdsmart.com/mmd/docker-base/sonar sh 
 [tags-end]: <>
