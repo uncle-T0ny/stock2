@@ -42,5 +42,26 @@ db.currentOp().inprog.length
 ```
 [tags-end]: <>
 
-
+[tags]: <> (mongo, update)
+# Update multiple items in collection by query(condition)
+```
+db.getCollection('links').update(
+    // query 
+    {
+        batch: 'b83a291c-be95-4b0e-a0f0-05845648777b'
+    },
+    
+    // update 
+    {
+        $set: {longLink: "http://track.mandrumfit.com/a6d01bce-e053-4a21-b3cc-fc985f2c5cbb"}
+    },
+    
+    // options 
+    {
+        "multi" : true,  // update only one document 
+        "upsert" : false  // insert a new document, if no existing document match the query 
+    }
+);
+```
+[tags-end]: <>
 
