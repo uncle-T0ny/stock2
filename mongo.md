@@ -13,6 +13,17 @@ db.links.createIndex({"payload.broadcast_id": 1}})
 [tags-end]: <>
 
 
+[tags]: <> (db, mongo, user)
+# Create user
+```
+db.createUser({
+  user: "user",
+  pwd: "password",
+  roles:[{role: "readWrite" , db:"paypalChecker"}]
+})
+```
+[tags-end]: <>
+
 [tags]: <> (db, mongo, index)
 
 # Create index with unique field
