@@ -15,6 +15,7 @@ docker tag friendlyhello doitrant/get-started:part2
 
 ### pull and run docker image remotely
 docker run -p 4000:80 doitrant/repository:tag
+docker run --name mongo -d -p 27017:27017 mongo:4.0.17
 
 ### init swarm
 docker swarm init
