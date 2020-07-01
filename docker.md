@@ -54,6 +54,9 @@ docker restart container_name
 ### docker remove all containers and all unused images
 docker system prune -a
 
+### docker get latest logs
+docker logs --tail 500 app-sender
+
 ### Copy a file from Docker container to host:
 docker cp 72ca2488b353:/foo.txt foo.txt
 
