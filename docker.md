@@ -1,7 +1,10 @@
-[tags]: <> (docker)
+[tags]: <> (docker, stats, info)
 
 ### view amount of images and containers
 docker info
+
+### view info about docker CPU/RAM consuming
+docker stats
 
 ### view list of docker images
 docker image ls
