@@ -40,6 +40,14 @@ scp -r * remoteuser@remoteserver:/remote/folder/
 ```
 [tags-end]: <>
 
+
+[tags]: <> (ssh, scp, copy)
+# Copy folder from remote server
+```
+scp -r remoteuser@remoteserver:/remote/folder/ /localfolder
+```
+[tags-end]: <>
+
 [tags]: <> (linux, ports, lsof)
 # Show open ports
 ```
