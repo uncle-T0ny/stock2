@@ -90,3 +90,10 @@ do
 done
 ```
 [tags-end]: <>
+
+[tags]: <> (linux, keygen, ssh, generate)
+
+```
+ssh-keygen -t rsa -b 4096 -m PEM -C account.name@email.io
+```
+[tags-end]: <>
