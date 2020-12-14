@@ -92,6 +92,7 @@ done
 [tags-end]: <>
 
 [tags]: <> (linux, keygen, ssh, generate)
+# Generate ssh key
 
 ```
 ssh-keygen -t rsa -b 4096 -m PEM -C account.name@email.io
