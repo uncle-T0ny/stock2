@@ -98,3 +98,13 @@ done
 ssh-keygen -t rsa -b 4096 -m PEM -C account.name@email.io
 ```
 [tags-end]: <>
+
+[tags]: <> (linux, chown, owner, permission)
+# Change owner of specifyed folder
+
+```
+sudo chown -R $(whoami) folder
+```
+[tags-end]: <>
+
+
