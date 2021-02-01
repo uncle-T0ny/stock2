@@ -22,6 +22,14 @@ db.createUser({
   roles:[{role: "readWrite" , db:"paypalChecker"}]
 })
 ```
+```
+db.createUser( { user: "admin",
+          pwd: "admin-pass",
+          roles: [ "userAdminAnyDatabase",
+                   "dbAdminAnyDatabase",
+                   "readWriteAnyDatabase"
+] } )
+```
 [tags-end]: <>
 
 [tags]: <> (db, mongo, index)
