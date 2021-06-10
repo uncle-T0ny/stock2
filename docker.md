@@ -47,6 +47,7 @@ docker-compose down --rmi=all
 
 ### build docker image with dockerfile
 docker build - < docker/Dockerfile.local
+docker build -f Dockerfile .
 
 ### get docker free space
 docker system df
@@ -68,5 +69,10 @@ docker cp foo.txt 72ca2488b353:/foo.txt
 
 ### Investigate docker image
 docker image history --no-trunc registry.mmdsmart.com/mmd/docker-base/sonar
-docker run -it registry.mmdsmart.com/mmd/docker-base/sonar sh 
+docker run -it registry.mmdsmart.com/mmd/docker-base/sonar sh
+
+### Delete containter and image
+docker container rm d50c85c7c398
+docker image rm 1c07a340c525 
+
 [tags-end]: <>
