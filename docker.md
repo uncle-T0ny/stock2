@@ -21,6 +21,8 @@ docker run -p 4000:80 doitrant/repository:tag
 
 docker run --name mongo -d -p 27017:27017 mongo:4.0.17
 
+docker run --env-file .env -t braintree
+
 ### init swarm
 docker swarm init
 
