@@ -78,3 +78,9 @@ docker container rm d50c85c7c398
 docker image rm 1c07a340c525 
 
 [tags-end]: <>
+
+
+[tags]: <> (docker, kube, kubernates)
+### specify the editor 
+KUBE_EDITOR=nano kubectl -n hardhat-acc edit configmap hardhat-validators-acc
+[tags-end]: <>
